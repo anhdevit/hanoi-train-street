@@ -4,18 +4,13 @@
  */
 
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import DrawerHaNoiStation from './Drawer';
-
-const Stack = createStackNavigator();
 
 function AppContainer() {
     return (
       <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Home" component={DrawerHaNoiStation} />
-        </Stack.Navigator>
+        <DrawerHaNoiStation />
       </NavigationContainer>
     );
   }
