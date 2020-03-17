@@ -6,12 +6,13 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import images from '../resources/icons';
 
 function HaNoiStationDark() {
     return (
         <View style={styles.container} >
             <Image
-                source={require('../resouces/hanoi-train-station.jpg')}
+                source={images.hanoi_train_station}
                 style={styles.imageStation}
                 resizeMode='cover'
             />

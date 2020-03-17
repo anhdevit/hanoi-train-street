@@ -8,12 +8,13 @@
 
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
+import images from '../resources/icons';
 
 function HaNoiTrainStreet() {
     return (
         <View style={styles.container} >
             <Image
-                source={require('../resouces/hanoi-train-street.jpg')}
+                source={images.hanoi_train_street}
                 style={styles.imageStation}
                 resizeMode='cover'
             />
