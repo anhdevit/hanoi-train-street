@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "@screens/*": [
+                "src/screens/*"
+            ],
+            "@router/*": [
+                "src/router/*"
+            ],
+            "@resources/*": [
+                "src/resources/*"
+            ],
+        }
+    }
+}

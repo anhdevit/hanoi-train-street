@@ -1,7 +1,7 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import * as React from 'react';
-import HaNoiStationDark from '../screens/HaNoiStationDark';
-import HaNoiStationLight from '../screens/HaNoiStationLight';
+import HaNoiStationDark from '@screens/HaNoiStationDark';
+import HaNoiStationLight from '@screens/HaNoiStationLight';
 
 const Tab = createBottomTabNavigator();
 

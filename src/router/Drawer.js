@@ -1,7 +1,7 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import * as React from 'react';
-import HaNoiTrainStreet from '../screens/HaNoiTrainStreet';
 import BottomTab from './BottomTab';
+import HaNoiTrainStreet from '@screens/HaNoiTrainStreet';
 
 const Drawer = createDrawerNavigator();
 

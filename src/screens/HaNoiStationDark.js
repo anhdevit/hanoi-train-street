@@ -6,7 +6,7 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import images from '../resources/icons';
+import images from '@resources/icons';
 
 function HaNoiStationDark() {
     return (
